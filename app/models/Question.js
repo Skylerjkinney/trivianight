@@ -16,8 +16,6 @@ export class Question {
         <h1> ${this.category} </h1>
         <h2> ${this.question} </h2>
         <h3> ${this.difficulty} </h3>
-        <button class = 'btn btn-primary' onclick = 'app.QuestionsController.playQuestion()'>PLAY</button>
-        <div class ='card' id = "real-question"> </div>
         </div>
         `
     }

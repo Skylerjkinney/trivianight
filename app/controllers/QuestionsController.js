@@ -19,7 +19,7 @@ export class QuestionsController {
     }
     async grabQuestions() {
         console.log('getting Questions in controller')
-        await questionsService.grabQuestions()
+        await questionsService.grabQuestionsGames()
     }
     playQuestion(questionId) {
         console.log('playing this Q')

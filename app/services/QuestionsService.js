@@ -5,7 +5,7 @@ import { Question } from "../models/Question.js"
 class QuestionsService {
 
 
-    async grabQuestions() {
+    async grabQuestionsGames() {
         let response = await fetch("https://opentdb.com/api.php?amount=15&category=15&type=multiple")
         console.log('incoming', response)
         let body = await response.json()
