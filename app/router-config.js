@@ -18,7 +18,8 @@ export const router = new Router([
     `
   },
   {
-    path: '#/about',
-    view: 'app/views/AboutView.html'
+    path: '#/game',
+    controllers: [QuestionsController],
+    view: 'app/views/GameView.html'
   }
 ])
